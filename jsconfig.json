@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+      "target": "ES6",
+      "module": "commonjs",
+      "allowSyntheticDefaultImports": true,
+      "baseUrl": "./",
+      "paths": {
+        "@/*": ["src/*"],
+        "@lib/*": ["src/lib/*"],
+        "@assets/*": ["src/assets"],
+        "@mock/*": ["src/mock"],
+        "@util/*": ["src/util"]
+      }
+  },
+  "exclude": [
+      "node_modules"
+  ]
+}
